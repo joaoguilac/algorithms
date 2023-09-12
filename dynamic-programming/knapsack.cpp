@@ -38,7 +38,7 @@ int main(int argc, char const *argv[]) {
     w[0] = 0;
     for (size_t i = 1; i <= n; i++) {
         int value, weight;
-        cin >> value >> weight;
+        cin >> weight >> value;
         v[i] = value;
         w[i] = weight;
     }
