@@ -1,5 +1,5 @@
 /**
- * @brief This is a implementation of the Longest common subsequence problem (LCS)
+ * @brief This is an implementation of the Longest common subsequence problem (LCS)
  * @link https://atcoder.jp/contests/dp/tasks/dp_f
  */
 
