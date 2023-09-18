@@ -1,6 +1,6 @@
 /**
  * @brief This is an implementation of the quick sort
- * average case: O(nlogn)
+ * average case: Θ(nlogn)
  * worst case: O(n^2)
  */
 

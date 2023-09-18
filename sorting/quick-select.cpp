@@ -1,6 +1,6 @@
 /**
  * @brief This is an implementation of the quick select
- * average case: O(n)
+ * average case: Θ(n)
  * worst case: O(n^2)
  */
 
