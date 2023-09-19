@@ -1,5 +1,5 @@
 /**
- * @brief This is an implementation of the counting sort
+ * @brief This is an implementation of the Counting sort
  * 
  * To use counting sort, it is assumed that the elements
  * of the array are all integers in the range [0, k].
@@ -16,7 +16,7 @@
 using namespace std;
 #define int long long
 
-void couting_sort(vector<int>& A, vector<int>& B, int k) {
+void counting_sort(vector<int>& A, vector<int>& B, int k) {
     vector<int> C(k+1);
     for (int i = 0; i <= k; i++) {
         C[i] = 0;
@@ -50,7 +50,7 @@ int32_t main(int32_t argc, char const *argv[]) {
         cin >> A[j];
     }
 
-    couting_sort(A, B, k);
+    counting_sort(A, B, k);
     
     cout << to_string(B) << endl;
 

@@ -1,5 +1,5 @@
 /**
- * @brief This is an implementation of the quick select
+ * @brief This is an implementation of the Quick Select
  * average case: Θ(n)
  * worst case: O(n^2)
  */

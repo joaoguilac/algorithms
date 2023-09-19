@@ -1,5 +1,5 @@
 /**
- * @brief This is an implementation of the quick sort
+ * @brief This is an implementation of the Quicksort
  * average case: Θ(nlogn)
  * worst case: O(n^2)
  */
