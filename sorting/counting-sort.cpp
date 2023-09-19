@@ -17,10 +17,8 @@ using namespace std;
 #define int long long
 
 void counting_sort(vector<int>& A, vector<int>& B, int k) {
-    vector<int> C(k+1);
-    for (int i = 0; i <= k; i++) {
-        C[i] = 0;
-    }
+    vector<int> C(k+1, 0);
+    
     for (int i = 0; i < A.size(); i++) {
         C[A[i]]++;
     }

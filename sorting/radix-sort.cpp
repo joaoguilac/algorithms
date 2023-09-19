@@ -13,12 +13,9 @@ using namespace std;
 #define int long long
 
 void stable_sort(vector<int>& A, int d) {
-    vector<int> C(10);
-    vector<int> B(A.size());
+    vector<int> C(10, 0);
+    vector<int> B(A.size(), 0);
 
-    for (int i = 0; i <= 9; i++) {
-        C[i] = 0;
-    }
     for (int i = 0; i < A.size(); i++) {
         int count_pos = (A[i] / d) % 10;
         C[count_pos]++;
