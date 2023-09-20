@@ -6,6 +6,7 @@
  * 
  * We usually use counting sort when k = O(n), 
  * which case the running time is Θ(n).
+ * Worst case: O(k + n)
  * 
  * Counting sort is stable: numbers with the same value 
  * appear in the output array in the same order as they do

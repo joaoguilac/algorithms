@@ -1,6 +1,6 @@
 /**
  * @brief This is an implementation of the Bucket sort
- * average case: O(n)
+ * average case: Θ(n) + n * (2 - 1/n) = Θ(n)
  * Assumes that the input is drawn from a uniform distribution
  */
 
